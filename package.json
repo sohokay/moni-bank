@@ -1,0 +1,30 @@
+{
+  "name": "moni-bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohokay/moni-bank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohokay/moni-bank/issues"
+  },
+  "homepage": "https://github.com/sohokay/moni-bank#readme",
+  "dependencies": {
+    "egg": "^2.30.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-view-nunjucks": "^2.3.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4"
+  }
+}
